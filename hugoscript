@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /bencane
+/hugo -d /html
+cp /html/index.xml /html/feed/
