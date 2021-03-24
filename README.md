@@ -28,7 +28,7 @@ run server :
 docker run -itd -p 80:80 -v $PWD/html:/usr/share/nginx/html bencane
 ```
 
-rebuild site :
+rebuild site whenever you changed some code :
 ```bash
 docker run --rm -v $PWD/bencane:/bencane -v $PWD/html:/html hugo
 ```
